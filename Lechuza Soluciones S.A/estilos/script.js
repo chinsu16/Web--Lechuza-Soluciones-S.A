@@ -162,10 +162,7 @@ function initFormValidation() {
     
     if (errores.length > 0) {
       alert(errores.join('\n'));
-    } else {
-      alert('¡Gracias por contactarnos! En breve nos comunicaremos con usted.');
-      form.reset();
-    }
+    } 
   });
 }
 
@@ -263,3 +260,4 @@ window.addEventListener('scroll', function() {
   
   lastScrollTop = scrollTop;
 });
+
