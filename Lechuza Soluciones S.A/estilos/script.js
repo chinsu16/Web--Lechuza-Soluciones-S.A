@@ -130,7 +130,6 @@ function initFormValidation() {
   if (!form) return;
 
   form.addEventListener('submit', function(e) {
-    e.preventDefault();
     
     const nombre = document.getElementById('nombre')?.value.trim();
     const email = document.getElementById('email')?.value.trim();
@@ -161,8 +160,11 @@ function initFormValidation() {
     }
     
     if (errores.length > 0) {
-      alert(errores.join('\n'));
-    } 
+      e.preventDefault();
+      alert('Se encontraron los siguientes errores:\n' + errores.join('\n'));
+    } else {
+     
+    }
   });
 }
 
@@ -260,4 +262,5 @@ window.addEventListener('scroll', function() {
   
   lastScrollTop = scrollTop;
 });
+
 
