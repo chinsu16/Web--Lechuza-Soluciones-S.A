@@ -1873,7 +1873,7 @@ html::-webkit-scrollbar-thumb:hover {
   }
 }
 
-/* PÁGINA DE CONFIRMACIÓN DE FORMULARIO */
+/* Confirmación de formulario*/
 
 /* Body específico para la página de éxito */
 .body-form-success {
@@ -2120,7 +2120,7 @@ html::-webkit-scrollbar-thumb:hover {
   height: 18px;
 }
 
-/* Responsive - Tablets */
+/* Responsive - tablets */
 @media (max-width: 968px) {
   .form-success-card {
     padding: 3rem 2.5rem;
@@ -2136,7 +2136,7 @@ html::-webkit-scrollbar-thumb:hover {
   }
 }
 
-/* Responsive - Móviles */
+/* Responsive - móviles */
 @media (max-width: 768px) {
   .body-form-success {
     padding: 1.5rem 0;
@@ -2195,7 +2195,7 @@ html::-webkit-scrollbar-thumb:hover {
   }
 }
 
-/* Responsive - Móviles pequeños */
+/* Responsive - móviles pequeños */
 @media (max-width: 480px) {
   .form-success-card {
     padding: 2.5rem 1.5rem;
@@ -2229,4 +2229,5 @@ html::-webkit-scrollbar-thumb:hover {
     padding: 0.9rem 1.5rem;
     font-size: 0.95rem;
   }
+
 }
